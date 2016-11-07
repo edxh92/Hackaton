@@ -45,6 +45,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DataSet1Comentarioxsd.xsd</DependentUpon>
     </Compile>
+    <Compile Include="DataSetIncidente.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetIncidente.xsd</DependentUpon>
+    </Compile>
     <Compile Include="DataSetLogin.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -79,6 +84,17 @@
     </None>
     <None Include="DataSet1Comentarioxsd.xss">
       <DependentUpon>DataSet1Comentarioxsd.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetIncidente.xsc">
+      <DependentUpon>DataSetIncidente.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetIncidente.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetIncidente.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetIncidente.xss">
+      <DependentUpon>DataSetIncidente.xsd</DependentUpon>
     </None>
     <None Include="DataSetLogin.xsc">
       <DependentUpon>DataSetLogin.xsd</DependentUpon>

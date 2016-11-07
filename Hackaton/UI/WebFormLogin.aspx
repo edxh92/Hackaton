@@ -9,7 +9,7 @@
     &nbsp;&nbsp;
     <br />
 &nbsp;<asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Iniciar Sesión" />
-    <asp:GridView ID="GridView1" runat="server">
+    <asp:GridView ID="GridView1" runat="server" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
     </asp:GridView>
 &nbsp;
 </asp:Content>
