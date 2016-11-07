@@ -31,12 +31,12 @@ namespace UI
         }
 
         protected void TextBox1_TextChanged(object sender, EventArgs e)
-        {
+        {/*
             ClassTipoIncidente lg = new ClassTipoIncidente();
         dt=   lg.Buscar(TextBox1.Text);
             GridView1.DataSource = dt;
             GridView1.DataBind();
-            Session["tipos"] = dt;
+            Session["tipos"] = dt;*/
 
         }
 
@@ -48,7 +48,7 @@ namespace UI
         protected void Button2_Click(object sender, EventArgs e)
         {
             ClassTipoIncidente lg = new ClassTipoIncidente();
-            GridView1.DataSource = lg.Buscar(TextBox1.Text);
+            //GridView1.DataSource = lg.Buscar(TextBox1.Text);
             GridView1.DataBind();
 
         }
