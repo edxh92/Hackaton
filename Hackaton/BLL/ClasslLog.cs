@@ -8,7 +8,7 @@ using System.Data;
 
 namespace BLL
 {
-    class ClasslLog
+    public class ClasslLog
     {
         private UsuarioTableAdapter  _log;
         private UsuarioTableAdapter LOG

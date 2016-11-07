@@ -8,7 +8,7 @@
     Contraseña:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:TextBox ID="TextBox2" runat="server" TextMode="Password" CausesValidation="True" OnTextChanged="TextBox2_TextChanged"></asp:TextBox>
     &nbsp;&nbsp;
     <br />
-&nbsp;<asp:Button ID="Button1" runat="server" Text="Iniciar Sesión" />
+&nbsp;<asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Iniciar Sesión" />
     <asp:GridView ID="GridView1" runat="server">
     </asp:GridView>
 &nbsp;
