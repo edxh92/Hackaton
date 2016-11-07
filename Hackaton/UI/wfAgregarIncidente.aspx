@@ -8,23 +8,16 @@
         Agrega un nuevo incidente</p>
     <p>
         &nbsp;</p>
-            Tipo:<asp:DropDownList ID="DropDownList1" runat="server">
+            Tipo:<asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" Height="19px" Width="323px">
+      </asp:DropDownList>
+      Nivel<asp:DropDownList ID="DropDownList2" runat="server" AutoPostBack="True">
+          <asp:ListItem>Positivo</asp:ListItem>
+          <asp:ListItem>Negativo</asp:ListItem>
       </asp:DropDownList>
 &nbsp;<asp:ScriptManager ID="ScriptManager1" runat="server">
             </asp:ScriptManager>
       <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Button" />
 <br __designer:mapid="8d" />
-            <asp:GridView ID="GridView1" runat="server" OnSelectedIndexChanged="GridView1_SelectedIndexChanged" BackColor="#CCCCCC" BorderColor="#999999" BorderStyle="Solid" BorderWidth="3px" CellPadding="4" CellSpacing="2" ForeColor="Black">
-                <FooterStyle BackColor="#CCCCCC" />
-                <HeaderStyle BackColor="Black" Font-Bold="True" ForeColor="White" />
-                <PagerStyle BackColor="#CCCCCC" ForeColor="Black" HorizontalAlign="Left" />
-                <RowStyle BackColor="White" />
-                <SelectedRowStyle BackColor="#000099" Font-Bold="True" ForeColor="White" />
-                <SortedAscendingCellStyle BackColor="#F1F1F1" />
-                <SortedAscendingHeaderStyle BackColor="#808080" />
-                <SortedDescendingCellStyle BackColor="#CAC9C9" />
-                <SortedDescendingHeaderStyle BackColor="#383838" />
-            </asp:GridView>
     <p>
         &nbsp;</p>
     <asp:UpdatePanel ID="UpdatePanel1" runat="server">
@@ -34,7 +27,11 @@
         </ContentTemplate>
     </asp:UpdatePanel>
     <p>
-&nbsp;Descripción:
+&nbsp;</p>
+      <p>
+          &nbsp;</p>
+      <p>
+          Descripción:
            
     </p>
       <p>

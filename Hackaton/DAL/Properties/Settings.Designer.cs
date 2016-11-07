@@ -27,7 +27,7 @@ namespace DAL.Properties {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
         [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-3DVUFFJ\\SQLEXPRESS;Initial Catalog=Hackaton;User ID=sa;Passwo" +
-            "rd=Dexter41")]
+            "rd=database")]
         public string HackatonConnectionString {
             get {
                 return ((string)(this["HackatonConnectionString"]));
