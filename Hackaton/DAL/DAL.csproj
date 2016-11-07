@@ -45,6 +45,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DataSet1Comentarioxsd.xsd</DependentUpon>
     </Compile>
+    <Compile Include="DataSetLogin.cs">
+      <DependentUpon>DataSetLogin.xsd</DependentUpon>
+    </Compile>
     <Compile Include="DataSetLogin.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

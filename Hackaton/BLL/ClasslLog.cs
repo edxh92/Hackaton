@@ -30,7 +30,6 @@ namespace BLL
             catch (Exception)
             {
                 resultado = null;
-
             }
 
             return resultado;
