@@ -22,6 +22,7 @@ namespace UI
             if (tabla.Rows.Count >0)
             {
                 Response.Redirect("~/Contact.aspx");
+                Session["permiso"] = "valido";
             }
             else
             {

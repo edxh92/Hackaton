@@ -21,6 +21,7 @@ namespace UI
         {
             Session["RandomStr"] = "";
             Session["tipos"] = "";
+            Session["permiso"] = "";
         }
     }
 }
