@@ -25,7 +25,7 @@ namespace BLL
             DataTable resultado = new DataTable();
             try
             {
-                resultado = LOG.GetDataLogin(_user, _pass);
+                resultado = LOG.GetDataSpLogin(_user, _pass);
             }
             catch (Exception)
             {
