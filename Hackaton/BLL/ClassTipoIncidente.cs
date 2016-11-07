@@ -47,6 +47,12 @@ namespace BLL
             return INCIDENTE.GetDataBuscarIncidentes(variable);
         }
         #endregion
+        public DataTable BuscarIncidenteCOnId(int id)
+        {
+            return INCIDENTE.BuscarIncidente(id);
+        }
+
+
 
         #region vistasPorAspectos
         View_TotalPorAspectosTableAdapter vistaaspectos = new View_TotalPorAspectosTableAdapter();
@@ -78,6 +84,8 @@ namespace BLL
         #endregion
 
 
+      
     }
+
 
 }

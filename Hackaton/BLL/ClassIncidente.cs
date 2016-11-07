@@ -55,5 +55,34 @@ namespace BLL
         {
             return INCIDENTE.GetDataBuscarPorCategorias(variable);
         }
+
+        DataTable1TableAdapter fechas = new DataTable1TableAdapter();
+        DataTable1TableAdapter FECHAS
+        {
+            get { return fechas; }
+        }
+        public DataTable ListaFecha()
+        {
+            return FECHAS.GetDataFechas();
+        }
+        public DataTable PorImportancia()
+        {
+            return FECHAS.GetDataPorImportancia();
+        }
+        public DataTable PorCategoria(string dato)
+        {
+            return FECHAS.GetDataBuscaCategorias(dato);
+        }
+        DataTable2TableAdapter dos = new DataTable2TableAdapter();
+        DataTable2TableAdapter DOS
+        {
+            get { return dos; }
+        }
+        public DataTable porAspecto(string valor)
+        {
+            return DOS.GetDataPorAspectos(valor);
+        }
+
+       
     }
 }

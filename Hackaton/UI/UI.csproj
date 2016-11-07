@@ -227,6 +227,10 @@
     <Content Include="Content\LICENSE" />
     <Content Include="Content\README.md" />
     <Content Include="wfAgregarIncidente.aspx" />
+    <Content Include="WFOrdenImportancia.aspx" />
+    <Content Include="WFPorAspectos.aspx" />
+    <Content Include="WFPorCategorias.aspx" />
+    <Content Include="WFPorFechas.aspx" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Registro.aspx" />
     <Content Include="Scripts\bootstrap.js" />
@@ -483,6 +487,34 @@
     </Compile>
     <Compile Include="wfAgregarIncidente.aspx.designer.cs">
       <DependentUpon>wfAgregarIncidente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WFOrdenImportancia.aspx.cs">
+      <DependentUpon>WFOrdenImportancia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WFOrdenImportancia.aspx.designer.cs">
+      <DependentUpon>WFOrdenImportancia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WFPorAspectos.aspx.cs">
+      <DependentUpon>WFPorAspectos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WFPorAspectos.aspx.designer.cs">
+      <DependentUpon>WFPorAspectos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WFPorCategorias.aspx.cs">
+      <DependentUpon>WFPorCategorias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WFPorCategorias.aspx.designer.cs">
+      <DependentUpon>WFPorCategorias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WFPorFechas.aspx.cs">
+      <DependentUpon>WFPorFechas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WFPorFechas.aspx.designer.cs">
+      <DependentUpon>WFPorFechas.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
