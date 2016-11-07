@@ -33,9 +33,9 @@
                             <asp:TextBox ID="TextBox2" runat="server" CssClass="text" placeholder="Contraseña"></asp:TextBox>
                             <br>
 						</div>
-						<asp:Button ID="Button1" runat="server" CssClass="button" Text="Iniciar Sesión" />
+						<asp:Button ID="Button1" runat="server" CssClass="button" Text="Iniciar Sesión" OnClick="Button1_Click" />
 &nbsp;<div id="registrate">
-					 <a href="registro.html">Regístrate ahora!!</a>
+					 <a href="Registro.aspx">Regístrate ahora!!</a>
 				</div>
 			</div>
 		

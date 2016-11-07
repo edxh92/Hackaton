@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClassComentario.cs" />
+    <Compile Include="ClassIncidente.cs" />
     <Compile Include="ClasslLog.cs" />
     <Compile Include="ClassTipoIncidente.cs" />
     <Compile Include="ClassValoracion.cs" />

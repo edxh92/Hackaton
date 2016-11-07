@@ -20,7 +20,7 @@ namespace UI
                 dt.Columns.Add("Id");
                 dt.Columns.Add("nombre");
                 dt.Columns.Add("descripcion");
-                dt = (DataTable)Session["tipos"];
+             
              
             }
         }
