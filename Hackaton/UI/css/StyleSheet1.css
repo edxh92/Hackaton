@@ -1,0 +1,230 @@
+﻿*{
+	margin:0;
+	padding: 0;
+
+}
+body
+{
+	background-size: 100vw 100vh;
+	/* background-size: 100%;*/
+	 background-repeat: no-repeat;
+	 z-index: -1;
+}
+.icon-user:before,.icon-key:before
+{
+	color: white;
+	font-size: 2em;
+	vertical-align: bottom;
+}
+#mensaje
+{
+	margin: auto auto;
+	border-radius: 5px;
+	border: 1px gray solid;
+	background-color: rgba(0,0,0,0.6);
+	width: 600px;
+	padding: 1em;
+}
+#botones
+{
+	margin: 0 auto;
+	width: 100px;
+	margin-top: 10px;
+}
+
+#botones input
+{
+	width: 100px;
+	height: 25px;
+	margin-left: 10px;
+	color: white;
+	border-radius: 5px;
+	font-family: 'Baloo Tamma', cursive;
+}
+
+#textoMensaje
+{
+	text-align: center;
+	font-size: 1.2em;
+	color: white;
+}
+.aceptar
+{
+	background-color: #8bb319;
+}
+.aceptar:hover
+{
+	background-color: #a2d412;
+}
+h1
+{
+	color: white;
+	text-align: center;
+}
+#Cabecera
+{
+	width: 100%;
+	height: 6em;
+	background-color: #141414;
+}
+#logo
+{
+	margin-left: 1em;
+}
+#logo img
+{
+	width: 13em;
+	height: 6em;
+}
+#cuerpo
+{
+	
+	padding-top: 5%;
+	padding-bottom: 5%;
+	height: 23em;
+}
+#content
+{
+	margin: 0 auto;
+	display: block;
+	border: 1px white solid;
+  margin: 0 auto;
+}
+
+#fomulario
+{
+	-webkit-box-shadow: 0px 0px 26px 0px rgba(50, 50, 50, 1);
+    -moz-box-shadow:    0px 0px 26px 0px rgba(50, 50, 50, 1);
+    box-shadow:         0px 0px 26px 0px rgba(50, 50, 50, 1);
+	margin-top: 5%;
+	background-color: rgba(0,0,0,0.6);
+	width: 30%;
+ 	margin: 0 auto;
+	display: block;
+	border-radius: 10px;
+	padding-top: 3em;
+	padding-bottom: 3em;
+	padding-left: 0.58em;
+	padding-right: 0.8em;
+}
+#fomulario label
+{
+	color:white;
+	width: 100%;
+	display: block;
+	font-size: 1.5em;
+	margin-bottom: 0.5em;
+}
+.text
+{
+	background-color: rgba(0,0,0,0.1);
+	width: 80%;
+	height: 2em;
+	color: white;
+	border-width:0;
+	display: inline-block;
+	padding-left: 1em;
+	font-size: 1.1em;
+}
+.text:focus
+{
+	outline: none;
+}
+.Entradas
+{
+	border-bottom: 1px white solid;
+	padding-bottom: 0.6em;
+	margin-bottom: 1.5em;
+}
+#fomulario input:hidden
+{
+	border-width: 0px;
+}
+#Pie
+{
+	width: 100%;
+	clear: both;
+	height: 2em;
+	background-color: #141414;
+	color: gray;
+	text-align: center;
+}
+.button
+{
+	border-radius: 0px;	
+	background-color: #067d93;
+	height: 2em;
+	color: white;
+	border-width:0;
+	width: 100%;
+	border-radius: 5px;
+	font-size: 1.2em;
+}
+
+.button:hover
+{
+	background-color: #00697c;	
+}
+#registrate 
+{
+	text-align: center;
+}
+#registrate a
+{
+	color: white;
+	text-decoration: none;
+}
+
+#registrate
+{
+	margin-top: 10px;
+}
+div#div_file
+{
+	margin-top: 2px;
+	position: relative;
+	padding: 2px;
+	width: 150px;
+	height: 20px;
+	background-color: #ededed;
+	margin-bottom: 5px;
+	cursor:pointer;
+}
+div#div_file:hover
+{
+	
+	background-color: #dad8d8;
+}
+input#fileToUpload
+{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+}
+p#textoSubir
+{
+	text-align:  center;
+	color: black;
+}
+.datoRegistro	
+{
+	background-color: rgba(0,0,0,0.3);
+	height: 2em;
+	color: white;
+	border-width:0;
+	padding-left: 1em;
+	font-size: 1.1em;
+	display: inline-block;
+	width: 45%;
+	margin-bottom: 10px;
+}
+input:focus
+{
+	
+	outline-color: gray;
+}
