@@ -37,7 +37,7 @@ namespace BLL
         public bool Comentar(string comentario, int incidente, int usuario)
         {
             bool? exito = false;
-            COMENTARIO.sp_InsertarComentario(comentario, incidente, usuario, exito ref);
+            COMENTARIO.sp_InsertarComentario(comentario, incidente, usuario, ref exito);
             return (bool)exito;
         }
     }

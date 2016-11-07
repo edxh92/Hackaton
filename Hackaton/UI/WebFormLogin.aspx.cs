@@ -21,7 +21,7 @@ namespace UI
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            ClassLog LgInicio = new ClassLog();
+            ClasslLog LgInicio = new ClasslLog();
             this.GridView1.DataSource = LgInicio.Inicio(this.TextBox1.Text, this.TextBox2.Text);
             this.GridView1.DataBind();
             if (this.GridView1.Rows.Count > 0)

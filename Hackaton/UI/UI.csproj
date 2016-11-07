@@ -223,6 +223,7 @@
     <Content Include="WebFormLogin.aspx" />
     <Content Include="Content\LICENSE" />
     <Content Include="Content\README.md" />
+    <Content Include="wfAgregarIncidente.aspx" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Registro.aspx" />
     <Content Include="Scripts\bootstrap.js" />
@@ -465,6 +466,13 @@
     </Compile>
     <Compile Include="WebFormLogin.aspx.designer.cs">
       <DependentUpon>WebFormLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wfAgregarIncidente.aspx.cs">
+      <DependentUpon>wfAgregarIncidente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfAgregarIncidente.aspx.designer.cs">
+      <DependentUpon>wfAgregarIncidente.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
