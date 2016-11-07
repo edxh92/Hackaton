@@ -8,9 +8,9 @@
         Agrega un nuevo incidente</p>
     <p>
         &nbsp;</p>
-            Tipo:
-            <asp:TextBox ID="TextBox1" runat="server" OnTextChanged="TextBox1_TextChanged" class="form-control" Height="26px" Width="933px"></asp:TextBox>
-            <asp:ScriptManager ID="ScriptManager1" runat="server">
+            Tipo:<asp:DropDownList ID="DropDownList1" runat="server">
+      </asp:DropDownList>
+&nbsp;<asp:ScriptManager ID="ScriptManager1" runat="server">
             </asp:ScriptManager>
       <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Button" />
 <br __designer:mapid="8d" />

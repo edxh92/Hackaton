@@ -30,7 +30,7 @@
 						<div class="Entradas">
 							<i class="icon-key"></i>
 							<!--<input class="text" type="password" name="pass" placeholder="Contraseña" required>-->
-                            <asp:TextBox ID="TextBox2" runat="server" CssClass="text" placeholder="Contraseña"></asp:TextBox>
+                            <asp:TextBox ID="TextBox2" runat="server" TextMode="Password" CssClass="text" placeholder="Contraseña"></asp:TextBox>
                             <br>
 						</div>
 						<asp:Button ID="Button1" runat="server" CssClass="button" Text="Iniciar Sesión" OnClick="Button1_Click" />
