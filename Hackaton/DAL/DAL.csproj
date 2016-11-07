@@ -40,6 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataSet1Comentarioxsd.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1Comentarioxsd.xsd</DependentUpon>
+    </Compile>
     <Compile Include="DataSetLogin.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -59,6 +64,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="DataSet1Comentarioxsd.xsc">
+      <DependentUpon>DataSet1Comentarioxsd.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1Comentarioxsd.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1Comentarioxsd.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet1Comentarioxsd.xss">
+      <DependentUpon>DataSet1Comentarioxsd.xsd</DependentUpon>
+    </None>
     <None Include="DataSetLogin.xsc">
       <DependentUpon>DataSetLogin.xsd</DependentUpon>
     </None>
