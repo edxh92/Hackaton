@@ -48,7 +48,7 @@
                         <a href="RepProd.aspx"><i class="fa fa-fw fa-desktop"></i> Productos más vendidos</a>
                     </li>
                     <li>
-                        <a href="RepoClientes.aspx"><i class="fa fa-fw fa-desktop"></i> Mejores Clientes</a>
+                        <a href="RepoClientes.aspx"><i class="fa fa-fw fa-desktop"></i> Mejores Clientes</a>&nbsp;
                     </li>
                     
                     
@@ -61,9 +61,9 @@
         
         </asp:ContentPlaceHolder>
         </div>
+    <form1></form1>
     </div>
     </div>
-    </form>
     <!-- jQuery -->
     <script src="~/Content/js/jquery.js"></script>
     <!-- Bootstrap Core JavaScript -->
@@ -72,5 +72,9 @@
     <script src="~/Content/js/plugins/morris/raphael.min.js"></script>
     <script src="~/Content/js/plugins/morris/morris.min.js"></script>
     <script src="~/Content/js/plugins/morris/morris-data.js"></script>
-</body>
+     <p> 
+         <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Cerrar Sesión" href="Login.aspx" />
+         </p>
+    </form>
+    </body>
 </html>
