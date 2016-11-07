@@ -25,7 +25,7 @@ namespace BLL
             DataTable resultado = new DataTable();
             try
             {
-                resultado = LOG.GetDataLogin(_user, _pass);
+                resultado = LOG.GetDataSpLogin(_user, _pass);
             }
             catch (Exception)
             {
@@ -34,6 +34,22 @@ namespace BLL
             }
 
             return resultado;
+        }
+
+
+        public string Ingresar(string nombre, string correo, string password,string imagen)
+        {
+            string mensaje = "";
+            try
+            {
+                LOG.sp_IngresoUsuario(nombre, correo, password, imagen, ref mensaje);
+            }
+            catch (Exception )
+            {
+
+                mensaje = "Error al ingresar";
+            }
+            return mensaje;
         }
     
     }
