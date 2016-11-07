@@ -50,6 +50,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DataSetLogin.xsd</DependentUpon>
     </Compile>
+    <Compile Include="DataSetTipoIncidente.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetTipoIncidente.xsd</DependentUpon>
+    </Compile>
     <Compile Include="DataSetValoracion.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -85,6 +90,17 @@
     </None>
     <None Include="DataSetLogin.xss">
       <DependentUpon>DataSetLogin.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetTipoIncidente.xsc">
+      <DependentUpon>DataSetTipoIncidente.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetTipoIncidente.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetTipoIncidente.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetTipoIncidente.xss">
+      <DependentUpon>DataSetTipoIncidente.xsd</DependentUpon>
     </None>
     <None Include="DataSetValoracion.xsc">
       <DependentUpon>DataSetValoracion.xsd</DependentUpon>
