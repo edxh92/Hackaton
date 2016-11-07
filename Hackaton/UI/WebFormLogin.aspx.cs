@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using BLL;
+using System.Data;
 namespace UI
 {
     public partial class WebFormLogin : System.Web.UI.Page
@@ -21,17 +22,17 @@ namespace UI
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            ClasslLog LgInicio = new ClasslLog();
+             ClasslLog LgInicio = new ClasslLog();
             this.GridView1.DataSource = LgInicio.Inicio(this.TextBox1.Text, this.TextBox2.Text);
             this.GridView1.DataBind();
             if (this.GridView1.Rows.Count > 0)
             {
                 Session["usuario"] = TextBox1.Text;
-                Response.Redirect("WebFormFarmaciaNew.aspx");
+                Response.Redirect("Contact.aspx");
             }
             else
             {
-                Response.Redirect("WebFormLog.aspx");
+                Response.Redirect("WebFormLogin.aspx");
             }
         }
     }

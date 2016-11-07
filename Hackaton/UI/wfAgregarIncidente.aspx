@@ -14,19 +14,20 @@
     <p>
         &nbsp;</p>
     <p>
-        Tipo:
-        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-        <asp:Button ID="Button1" runat="server" Text="Button" />
-    </p>
+        &nbsp;</p>
     <p>
         <asp:ScriptManagerProxy ID="ScriptManagerProxy1" runat="server">
         </asp:ScriptManagerProxy>
     </p>
     <asp:UpdatePanel ID="UpdatePanel1" runat="server">
         <ContentTemplate>
+            Tipo:
+            <asp:TextBox ID="TextBox1" runat="server" OnTextChanged="TextBox1_TextChanged"></asp:TextBox>
 <br />
-            <asp:GridView ID="GridView1" runat="server">
+            <asp:GridView ID="GridView1" runat="server" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
             </asp:GridView>
+            <br />
+            <asp:Label ID="lblTipoIncidente" runat="server"></asp:Label>
         </ContentTemplate>
     </asp:UpdatePanel>
     <p>
