@@ -50,6 +50,15 @@
                     <li>
                         <a href="RepoClientes.aspx"><i class="fa fa-fw fa-desktop"></i> Mejores Clientes</a>&nbsp;
                     </li>
+                    <li>
+                        <a href="WFOrdenImportancia.aspx"><i class="fa fa-fw fa-desktop"></i>Orden por Importancia</a>&nbsp;
+                    </li>
+                    <li>
+                        <a href="WFPorCategorias.aspx"><i class="fa fa-fw fa-desktop"></i> Mejores Categorias</a>&nbsp;
+                    </li>
+                    <li>
+                        <a href="WFPorFechas.aspx"><i class="fa fa-fw fa-desktop"></i>Fechas Incidencia</a>&nbsp;
+                    </li>
                     
                     
                 </ul>
