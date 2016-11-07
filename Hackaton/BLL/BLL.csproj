@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClassComentario.cs" />
     <Compile Include="ClasslLog.cs" />
     <Compile Include="ClassValoracion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

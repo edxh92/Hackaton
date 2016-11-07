@@ -26,7 +26,8 @@ namespace DAL.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=KIKAB\\SQLEXPRESS;Initial Catalog=Hackaton;Integrated Security=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-3DVUFFJ\\SQLEXPRESS;Initial Catalog=Hackaton;Persist Security " +
+            "Info=True;User ID=sa;Password=database")]
         public string HackatonConnectionString {
             get {
                 return ((string)(this["HackatonConnectionString"]));
