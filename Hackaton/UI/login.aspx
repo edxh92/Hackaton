@@ -7,10 +7,10 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
     <link href="https://file.myfontastic.com/JKmPkeXtC2xxzgs26Dcm4g/icons.css" rel="stylesheet"/>
-    <link rel="stylesheet" type="text/css" href="css/stylesheet.css"/>
+    <link rel="stylesheet" type="text/css" href="css/stylesheet1.css"/>
 </head>
 <body>
-    <form id="form1" runat="server">
+     <form id="form1" runat="server">
     <div>
         <div id="cuerpo">
 		
@@ -22,17 +22,21 @@
 						<h1>Login</h1>
 						<div class="Entradas">
 							<i class="icon-user"></i>
-							<input class="text" type="text" name="usuario" placeholder="Usuario" autocomplete="off" required><br>
+							<!--<input class="text" type="text" name="usuario" placeholder="Usuario" autocomplete="off" required>-->
+                            <asp:TextBox ID="TextBox1" runat="server" CssClass="text" placeholder="Usuario"></asp:TextBox>
+                            <br>
 						</div>
 						
 						<div class="Entradas">
 							<i class="icon-key"></i>
-							<input class="text" type="password" name="pass" placeholder="Contraseña" required><br>
+							<!--<input class="text" type="password" name="pass" placeholder="Contraseña" required>-->
+                            <asp:TextBox ID="TextBox2" runat="server" CssClass="text" TextMode="Password" placeholder="Contraseña" OnTextChanged="TextBox2_TextChanged"></asp:TextBox>
+                            <br>
 						</div>
-						<input type="submit" name="Ingresar" value="Iniciar Sesión" class="button">
-						
-				
-				<div id="registrate">
+						<asp:Button ID="Button1" runat="server" CssClass="button" Text="Iniciar Sesión"  OnClick="Button1_Click" />
+&nbsp;<asp:GridView ID="GridView1" runat="server">
+                        </asp:GridView>
+                        <div id="registrate">
 					 <a href="registro.html">Regístrate ahora!!</a>
 				</div>
 			</div>
