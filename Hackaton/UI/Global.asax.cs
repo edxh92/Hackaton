@@ -20,6 +20,8 @@ namespace UI
         protected void Session_Start(object sender, EventArgs e)
         {
             Session["RandomStr"] = "";
+            Session["tipos"] = "";
+            Session["permiso"] = "";
         }
     }
 }

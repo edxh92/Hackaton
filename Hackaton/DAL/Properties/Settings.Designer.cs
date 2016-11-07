@@ -26,7 +26,8 @@ namespace DAL.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=EDXH92;Initial Catalog=Hackaton;User ID=sa;Password=Dexter41")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=CASTELLANOSO\\CASTELLANOSO;Initial Catalog=Hackaton;User ID=sa;Passwor" +
+            "d=database")]
         public string HackatonConnectionString {
             get {
                 return ((string)(this["HackatonConnectionString"]));

@@ -30,14 +30,12 @@
 						<div class="Entradas">
 							<i class="icon-key"></i>
 							<!--<input class="text" type="password" name="pass" placeholder="Contraseña" required>-->
-                            <asp:TextBox ID="TextBox2" runat="server" CssClass="text" TextMode="Password" placeholder="Contraseña" OnTextChanged="TextBox2_TextChanged"></asp:TextBox>
+                            <asp:TextBox ID="TextBox2" runat="server" TextMode="Password" CssClass="text" placeholder="Contraseña"></asp:TextBox>
                             <br>
 						</div>
-						<asp:Button ID="Button1" runat="server" CssClass="button" Text="Iniciar Sesión"  OnClick="Button1_Click" />
-&nbsp;<asp:GridView ID="GridView1" runat="server">
-                        </asp:GridView>
-                        <div id="registrate">
-					 <a href="registro.html">Regístrate ahora!!</a>
+						<asp:Button ID="Button1" runat="server" CssClass="button" Text="Iniciar Sesión" OnClick="Button1_Click" />
+&nbsp;<div id="registrate">
+					 <a href="Registro.aspx">Regístrate ahora!!</a>
 				</div>
 			</div>
 		

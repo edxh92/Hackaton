@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using BLL;
+using System.Data;
 namespace UI
 {
     public partial class login : System.Web.UI.Page
@@ -16,23 +17,17 @@ namespace UI
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            ClasslLog LgInicio = new ClasslLog();
-            this.GridView1.DataSource = LgInicio.Inicio(this.TextBox1.Text, this.TextBox2.Text);
-            this.GridView1.DataBind();
-            if (this.GridView1.Rows.Count > 0)
+            ClasslLog log = new ClasslLog();
+            DataTable tabla = log.Inicio(TextBox1.Text, TextBox2.Text);
+            if (tabla.Rows.Count >0)
             {
-                Session["usuario"] = TextBox1.Text;
-                Response.Redirect("Contact.aspx");
+                Response.Redirect("~/Contact.aspx");
+                Session["permiso"] = "valido";
             }
             else
             {
-                Response.Redirect("WebFormLogin.aspx");
+                Response.Redirect("~/login.aspx");
             }
-        }
-
-        protected void TextBox2_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }
