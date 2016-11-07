@@ -9,6 +9,7 @@ body
 	/* background-size: 100%;*/
 	 background-repeat: no-repeat;
 	 z-index: -1;
+     background-image:url(../imagenes/fondo.jpg);
 }
 .icon-user:before,.icon-key:before
 {

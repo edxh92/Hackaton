@@ -220,6 +220,7 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="imagenes\fondo.jpg" />
     <Content Include="login.aspx" />
     <Content Include="WebForm1.aspx" />
     <Content Include="WebFormLogin.aspx" />
